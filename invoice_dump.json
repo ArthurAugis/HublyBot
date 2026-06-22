@@ -1,0 +1,159 @@
+{
+    "id": "in_1TknKC3AHUd0aTo2swXpn0Ur",
+    "object": "invoice",
+    "account_country": "FR",
+    "account_name": "Environnement de test New business",
+    "account_tax_ids": null,
+    "amount_due": 9202,
+    "amount_overpaid": 0,
+    "amount_paid": 0,
+    "amount_remaining": 9202,
+    "amount_shipping": 0,
+    "application": null,
+    "attempt_count": 0,
+    "attempted": false,
+    "auto_advance": false,
+    "automatic_tax": {
+        "disabled_reason": null,
+        "enabled": false,
+        "liability": null,
+        "provider": null,
+        "status": null
+    },
+    "automatically_finalizes_at": null,
+    "billing_reason": "subscription_create",
+    "collection_method": "charge_automatically",
+    "created": 1782055820,
+    "currency": "usd",
+    "custom_fields": null,
+    "customer": "cus_Uk24mz9KqXZZKh",
+    "customer_account": null,
+    "customer_address": {
+        "city": null,
+        "country": "FR",
+        "line1": null,
+        "line2": null,
+        "postal_code": null,
+        "state": null
+    },
+    "customer_email": "arthuraugis5@gmail.com",
+    "customer_name": "Arthur",
+    "customer_phone": null,
+    "customer_shipping": null,
+    "customer_tax_exempt": "none",
+    "customer_tax_ids": [],
+    "default_payment_method": null,
+    "default_source": null,
+    "default_tax_rates": [],
+    "description": null,
+    "discounts": [],
+    "due_date": null,
+    "effective_at": 1782055820,
+    "ending_balance": 0,
+    "footer": null,
+    "from_invoice": null,
+    "hosted_invoice_url": "https:\/\/invoice.stripe.com\/i\/acct_1RlsEw3AHUd0aTo2\/test_YWNjdF8xUmxzRXczQUhVZDBhVG8yLF9Va0h1bDMzNTFCeGhsdng2YXUyY24zUVc5ZmhhNUZhLDE3MjU5NjYyMQ0200eZm9A8vW?s=ap",
+    "invoice_pdf": "https:\/\/pay.stripe.com\/invoice\/acct_1RlsEw3AHUd0aTo2\/test_YWNjdF8xUmxzRXczQUhVZDBhVG8yLF9Va0h1bDMzNTFCeGhsdng2YXUyY24zUVc5ZmhhNUZhLDE3MjU5NjYyMQ0200eZm9A8vW\/pdf?s=ap",
+    "issuer": {
+        "type": "self"
+    },
+    "last_finalization_error": null,
+    "latest_revision": null,
+    "lines": {
+        "object": "list",
+        "data": [
+            {
+                "id": "il_1TknKC3AHUd0aTo255Qg3m6L",
+                "object": "line_item",
+                "amount": 9202,
+                "currency": "usd",
+                "description": "1 \u00d7 HublyBot Premium (\u00e0 $92.02\/year)",
+                "discount_amounts": [],
+                "discountable": true,
+                "discounts": [],
+                "invoice": "in_1TknKC3AHUd0aTo2swXpn0Ur",
+                "livemode": false,
+                "metadata": [],
+                "parent": {
+                    "invoice_item_details": null,
+                    "subscription_item_details": {
+                        "invoice_item": null,
+                        "proration": false,
+                        "proration_details": {
+                            "credited_items": null
+                        },
+                        "subscription": "sub_1TknKC3AHUd0aTo2JAEjCAII",
+                        "subscription_item": "si_UkHuJc7O1KEhUy"
+                    },
+                    "type": "subscription_item_details"
+                },
+                "period": {
+                    "end": 1813591820,
+                    "start": 1782055820
+                },
+                "pretax_credit_amounts": [],
+                "pricing": {
+                    "price_details": {
+                        "price": "price_1TknDO3AHUd0aTo2Fs4Jt4vj",
+                        "product": "prod_UkHmdtoGsV9Sjh"
+                    },
+                    "type": "price_details",
+                    "unit_amount_decimal": "9202"
+                },
+                "quantity": 1,
+                "quantity_decimal": "1",
+                "subtotal": 9202,
+                "taxes": []
+            }
+        ],
+        "has_more": false,
+        "total_count": 1,
+        "url": "\/v1\/invoices\/in_1TknKC3AHUd0aTo2swXpn0Ur\/lines"
+    },
+    "livemode": false,
+    "metadata": [],
+    "next_payment_attempt": null,
+    "number": "XIJO6DTC-0018",
+    "on_behalf_of": null,
+    "parent": {
+        "quote_details": null,
+        "subscription_details": {
+            "metadata": [],
+            "subscription": "sub_1TknKC3AHUd0aTo2JAEjCAII"
+        },
+        "type": "subscription_details"
+    },
+    "payment_settings": {
+        "default_mandate": null,
+        "payment_method_options": null,
+        "payment_method_types": [
+            "card"
+        ]
+    },
+    "period_end": 1782055820,
+    "period_start": 1782055820,
+    "post_payment_credit_notes_amount": 0,
+    "pre_payment_credit_notes_amount": 0,
+    "receipt_number": null,
+    "rendering": null,
+    "shipping_cost": null,
+    "shipping_details": null,
+    "starting_balance": 0,
+    "statement_descriptor": null,
+    "status": "open",
+    "status_transitions": {
+        "finalized_at": 1782055820,
+        "marked_uncollectible_at": null,
+        "paid_at": null,
+        "voided_at": null
+    },
+    "subtotal": 9202,
+    "subtotal_excluding_tax": 9202,
+    "test_clock": null,
+    "total": 9202,
+    "total_discount_amounts": [],
+    "total_excluding_tax": 9202,
+    "total_pretax_credit_amounts": [],
+    "total_taxes": [],
+    "webhooks_delivered_at": 1782055820
+}
