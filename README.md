@@ -32,7 +32,7 @@ HublyBot is a premium no-code Discord bot building and hosting SaaS platform. Bu
 
 ### 2. Clone and Install Dependencies
 ```bash
-git clone https://github.com/yourusername/HublyBot.git
+git clone https://github.com/ArthurAugis/HublyBot.git
 cd HublyBot
 
 # Install Laravel dependencies
